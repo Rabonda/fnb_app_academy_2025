@@ -1,0 +1,37 @@
+h1{
+  color: green;
+  font-family: san-serif;
+}
+p{
+  color: coral;
+  font-family: fantasy;
+}
+
+ul{
+  list-style-image: url('images/pointer-icon.png');
+}
+
+ol{
+  list-style-type: upper-roman;
+}
+#menu-bar{
+  width: 100%;
+  hight: 40px;
+  background-color: cornflowerblue;
+  padding-top: 12px;
+}
+#menu-bar a{
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#menu-bar a:hover{
+  color: #5077bd;
+}
+.gallary img{
+  width: 100;
+}

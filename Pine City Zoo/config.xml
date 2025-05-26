@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML Editor 4.3.0 (85) -->
+<widget
+andriod-versionCode ='1'
+id = 'com.CodePocker.PineCityZoo'
+version = '1.0.0'
+xmlns = 'https://www.w3.org/ns/widgets'>
+
+<name>PineCityZoo</name>
+<description>Find your path</description>
+<author>CodePocker</author>
+<preference name='orientation' value='portrait'/>
+</widget>

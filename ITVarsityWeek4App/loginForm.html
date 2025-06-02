@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+</head>
+<body>
+  <p>Welcome. Please login:</p>
+  <form>
+    <label for="userNameInput">
+      Username:
+    </label>
+    <input type="text" id="userNameInput"/>
+    <br>
+    <label for="passwordInput">
+      Password:
+    </label>
+    <input type="text" id="passwordInput"/>
+    <br>
+    <p id="message">mxjdj</p>
+    <a href="#" onclick="verifyUser()">Login</a>
+  </form>
+  <script>
+  function verifyUser(){
+    var userName = document.getElementById("userNameInput").value;
+    var password = document.getElementById("passwordInput").value;
+    document.getElementById("message").innerHTML = "Valid user";
+    checkUserCreds(userName,password);
+  }
+  function checkUserCreds(userName, password){
+    var systemUsername = "Bond";
+    var systemPassword = "007";
+    
+    if((userName == systemUsername) && (password == systemPassword)){
+      document.getElementById("message").innerHTML = "Valid user";
+    }
+    else{
+      document.getElementById("message").innerHTML = "Invalid user";
+    }
+    
+  }
+  </script>
+</body>
+</html>

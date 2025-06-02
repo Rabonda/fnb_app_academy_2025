@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+</head>
+<body>
+  <p id="output"></p>
+  <script>
+  var text1 = "10";
+  var text2 = "1B";
+  var num1 = stringToNumber(text1);
+  var num2 = stringToNumber(text2);
+ 
+  if(isNaN(num1) || isNaN(num2)){
+    document.getElementById("output").innerHTML = "Please enter a valid number.";
+  }
+  else{
+    document.getElementById("output").innerHTML = num1 + num2;
+  }
+  function stringToNumber(text){
+  return parseInt(text);
+  }
+  </script>
+</body>
+</html>

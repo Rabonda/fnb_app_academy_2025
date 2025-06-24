@@ -1,0 +1,67 @@
+h1, h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+}
+p {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#colored-boxes-container {
+  display: block;
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+}
+
+.box {
+  display: block;
+  width: 15%;
+  height: 220px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+
+#pink {
+  background-color: brown;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#grey {
+  background-color: grey;
+}
+#black {
+  background-color: black;
+}
+
+a {
+  background-color: lightblue;
+  display: block;
+  text-decoration: line-through;
+  color: red;
+  font-size: 30px;
+}
